@@ -1,0 +1,25 @@
+{
+  "name": "cli-template",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./bin/index.js",
+  "scripts": {
+    "build": "rm -rf ./bin/* && tsc"
+  },
+  "bin": {
+    "hello": "./bin/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "yargs": "^17.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "@types/yargs": "^17.0.22",
+    "typescript": "^5.0.2"
+  }
+}
