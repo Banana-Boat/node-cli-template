@@ -6,7 +6,8 @@
   "main": "./bin/index.js",
   "scripts": {
     "build": "rm -rf ./bin/* && tsc",
-    "dev": "npm run build && node ."
+    "dev": "npm run build && node .",
+    "test": "node ./test/index.js"
   },
   "bin": {
     "hello": "./bin/index.js"
