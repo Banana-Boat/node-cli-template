@@ -4,6 +4,9 @@
   "description": "",
   "type": "module",
   "main": "./bin/index.js",
+  "files": [
+    "bin/"
+  ],
   "scripts": {
     "build": "rm -rf ./bin/* && tsc",
     "dev": "npm run build && node .",
